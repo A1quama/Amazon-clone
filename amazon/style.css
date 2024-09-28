@@ -42,7 +42,7 @@ a{
     height: 75%;
     width: 100%;
     margin: 2px;
-    background-image: url(/amazon/items/amazonlogo.png);
+    background-image: url(/items/amazonlogo.png);
     background-size:contain;
     background-repeat: no-repeat;
     /* background-color: blue; */
@@ -155,7 +155,7 @@ option{
 .freedom{
     height: 16px;
     width: 24px;
-    background-image: url(/amazon/items/usa-flag-vector-illustration_768467-359.avif);
+    background-image: url(/items/usa-flag-vector-illustration_768467-359.avif);
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: 0.2rem;
@@ -391,35 +391,35 @@ option{
 #img1{
     height: 100%;
     width: 100%;
-    background-image:url(/amazon/slides/game.jpg);
+    background-image:url(/slides/game.jpg);
     background-size: cover;
     background-position: center;
 }
 #img2{
     height: 100%;
     width: 100%;
-    background-image:url(/amazon/slides/beauty.jpg);
+    background-image:url(/slides/beauty.jpg);
     background-size: cover;
     background-position: center;
 }
 #img3{
     height: 100%;
     width: 100%;
-    background-image:url(/amazon/slides/books.jpg);
+    background-image:url(/slides/books.jpg);
     background-size: cover;
     background-position: center;
 }
 #img4{
     height: 100%;
     width: 100%;
-    background-image: url(/amazon/slides/cooking.jpg);
+    background-image: url(/slides/cooking.jpg);
     background-size: cover;
     background-position: center;
 }
 #img5{
     height: 100%;
     width: 100%;
-    background-image: url(/amazon/slides/toys.jpg);
+    background-image: url(/slides/toys.jpg);
     background-size: cover;
     background-position: center;
 }
