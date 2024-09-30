@@ -336,6 +336,7 @@ option{
     background-color: #232F3E;
     align-content: center;
     display: flex;
+    justify-content: space-between;
 }
 #secnav{
     color: white; 
@@ -368,7 +369,6 @@ option{
     color: white;
     font-weight: bold;
     font-size: 16px;
-    text-decoration: none;
     width: fit-content;
     display: flex;
     position: relative;
