@@ -5,8 +5,6 @@
 }
 body{
     height: 100vh;
-    /* width: 100vw;
-    overflow-x: hidden; */
 }
 a{
     color: #007185;
@@ -15,8 +13,8 @@ a{
 /* navbar */
 .navbar{
     color: white; 
-    width: 100vw;
-    height: 3.85rem;
+    width: 84.3rem;
+    height: 60px;
     display: flex;
     flex-direction: row;
     background-color: #11171f;
@@ -44,7 +42,7 @@ a{
     height: 75%;
     width: 100%;
     margin: 2px;
-    background-image: url(/amazon/items/amazonlogo.png);
+    background-image: url(/items/amazonlogo.png);
     background-size:contain;
     background-repeat: no-repeat;
     /* background-color: blue; */
@@ -117,7 +115,7 @@ option{
     
 }
 .searchbar{
-    width: 8rem;
+    width: 100px;
     color: #11171f;
     font-family:'Trebuchet MS';
     padding: 2% 0 2% 2%;
@@ -155,10 +153,9 @@ option{
     margin-top: 8px;
 }
 .freedom{
-    height: 1rem;
-    width: 1.5rem;
-    position: relative;
-    background-image: url(/amazon/items/usa-flag-vector-illustration_768467-359.avif);
+    height: 16px;
+    width: 24px;
+    background-image: url(/items/usa-flag-vector-illustration_768467-359.avif);
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: 0.2rem;
@@ -396,35 +393,35 @@ option{
 #img1{
     height: 100%;
     width: 100%;
-    background-image:url(/amazon/slides/game.jpg);
+    background-image:url(/slides/game.jpg);
     background-size: cover;
     background-position: center;
 }
 #img2{
     height: 100%;
     width: 100%;
-    background-image:url(/amazon/slides/beauty.jpg);
+    background-image:url(/slides/beauty.jpg);
     background-size: cover;
     background-position: center;
 }
 #img3{
     height: 100%;
     width: 100%;
-    background-image:url(/amazon/slides/books.jpg);
+    background-image:url(/slides/books.jpg);
     background-size: cover;
     background-position: center;
 }
 #img4{
     height: 100%;
     width: 100%;
-    background-image: url(/amazon/slides/cooking.jpg);
+    background-image: url(/slides/cooking.jpg);
     background-size: cover;
     background-position: center;
 }
 #img5{
     height: 100%;
     width: 100%;
-    background-image: url(/amazon/slides/toys.jpg);
+    background-image: url(/slides/toys.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -986,7 +983,7 @@ footer{
         transform: translate(235%,180%);
     }
 } */
-/* @media screen and (max-width:420px){
+/* @media(max-width:420px){
     *{
         font-size: smaller;
     }
@@ -995,21 +992,18 @@ footer{
         left: 0px;
     }
     .navbar{
-        font-size: smaller;
-        width: 100vw;
-        height: 35px;
+        width: 400px;
+        height: 20px;
         overflow: hidden;
     }
     .container{
-        width: 100vw;
-        height: 350px;
+        width: 400px;
     }
     .secondary-navbar{
-        font-size: smaller;
-        width: 100vw;
+        width: 400px;
     }
     .full-content{
-        width: 100vw;
+        width: 400px;
         height: fit-content;
     }
     .row-group{
@@ -1018,12 +1012,12 @@ footer{
     .scroll-container{
         height: 100px;
     }
+    
     .nav-search{
         width: 180px;
     }
     .search-holder{
-        width: 350px;
-        height: 25px;
+        width: auto;
     }
     .searchbar{
         padding-right: 10%;
@@ -1032,19 +1026,6 @@ footer{
         width: 20px;
     }
     footer{
-        width: 100vw;
-    }
-    .signin-outer{
-        font-size: small;
-        width: 100vw;
-    }
-    .disclaimer{
-        font-size: small;
-    }
-    #secnav{
-        font-size: 10px;
-    }
-    #gaming{
-        font-size: 10px;
+        width: 400px;
     }
 } */
