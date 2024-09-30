@@ -336,6 +336,7 @@ option{
     background-color: #232F3E;
     align-content: center;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 #secnav{
@@ -362,16 +363,17 @@ option{
     width: fit-content;
     display: flex;
     position: relative;
-    top: 0.25rem;
-    left: 45rem;
+    /* top: 0.25rem; */
+    /* left: 45rem; */
 }
 #gaming{
     color: white;
     font-weight: bold;
     font-size: 16px;
-    width: fit-content;
+    /* text-decoration: none; */
+    /* width: fit-content; */
     display: flex;
-    position: relative;
+    /* position: relative; */
     padding: 0.6rem;
     align-items: center;
 }
@@ -896,6 +898,12 @@ footer{
 #tnc{
     color: white;
     font-size: small;
+}
+
+@media (max-width: 450px){
+    html{
+        overflow-x: hidden;
+    }
 }
 
 /* responsivness */
