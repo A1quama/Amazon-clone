@@ -906,6 +906,33 @@ footer{
     }
 }
 
+@media (min-width:1400px){
+    html{
+        display: flex;
+        justify-content: center;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .navbar{
+        width: 100vw;
+    }
+    .search-outer{
+        width: 1000px;
+    }
+    .searchbar{
+        padding : 2px
+    }
+    .secondary-navbar{
+        width: 100vw;
+    }
+    footer{
+        width: 100vw;
+    }
+}
+
 /* responsivness */
 /* @media(max-width:option){
     .item{
