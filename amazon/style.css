@@ -974,10 +974,9 @@ footer{
         transform: translate(235%,180%);
     }
 } */
-@media(max-width:420px){
+/* @media(max-width:420px){
     *{
         font-size: smaller;
-        /* overflow-x: hidden; */
     }
     .game{
         position: relative;
@@ -1020,4 +1019,4 @@ footer{
     footer{
         width: 400px;
     }
-}
+} */
